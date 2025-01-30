@@ -50,7 +50,7 @@ body {
 }
 .screen {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./image/11846c7532db3872d2ee2735565e4dbe.jpg);
+    url(./image/interior.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,8 +62,9 @@ body {
 .container {
   width: 100%;
   max-width: 768px;
-  padding: 24px 16px;
+  padding: 20px 14px;
   margin: 0 auto;
+  border-radius: 15px;
 }
 .date-section .first-part,
 .date-section .third-part,
@@ -120,11 +121,11 @@ body {
   display: none;
 }
 .date-section .second-part {
-  background-image: url(./image/couple-photo-deck.jpg);
+  background-image: url(./image/bride.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 812px;
+  min-height: 810px;
   width: 100%;
   max-width: 100%;
 
@@ -169,7 +170,7 @@ body {
 
   margin-bottom: 16px;
 }
-/* date-section end*/
+
 
 /* location-setion */
 .location-section .first-part {
@@ -202,7 +203,7 @@ body {
 .location-section .first-part img {
   width: 166px;
   height: 150px;
-  fill: #b89137;
+  fill: #f6ce72;
 }
 .location-section .second-part h2 {
   color: var(--primary-text);
@@ -260,7 +261,7 @@ body {
   left: 0;
   border-radius: 37.53px;
   transform: rotate(-13.44deg);
-  background-color: rgba(184, 145, 55, 0.17);
+  background-color: rgba(244, 198, 90, 0.523);
 }
 /* location-setion end*/
 
@@ -366,7 +367,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .screen {
-    background-image: url(../styles/image/couple-photo-deck.jpg);
+    background-image: url(../styles/image/couple-photo.webp);
   }
   .container {
     display: flex;
@@ -462,7 +463,7 @@ body {
     display: none;
   }
   .date-section .second-part {
-    background-image: url(./image/couple-photo-deck.png);
+    background-image: url(./image/couple-photo-deck.webp);
     min-height: 736px;
     border-radius: 40px;
   }
